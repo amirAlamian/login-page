@@ -1,0 +1,32 @@
+.black{
+	
+	background-color: rgba(0,0,0,0.8);
+	
+	margin: 100px auto;
+}
+@font-face{
+	font-family: byekan;
+	src:url(yekan.ttf);
+}
+.back{
+	background-image: url('images/8.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: auto;
+}
+.borderra{
+	border-radius:0; 
+	border:none;
+}
+.is-invalid{
+	background-image: url('images/icon5.png') !important;
+}
+body{
+	font-family:byekan;
+	font-size: 18px;
+}
+.hide{
+	display: none;
+	width: 100%;
+	text-align: right;
+}
